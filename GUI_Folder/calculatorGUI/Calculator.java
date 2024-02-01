@@ -41,7 +41,7 @@ public class Calculator implements ActionListener {
 	static int clickCount = 0;
 
 	//Creating the calculator object
-	Calculator() {
+	public Calculator() {
 		frame = new JFrame("Calculator");// Creates the name for the JFrame
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);// The default way to close the frame and program
 		frame.setSize(1300, 550);
